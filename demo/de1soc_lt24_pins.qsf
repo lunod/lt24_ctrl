@@ -1,0 +1,47 @@
+## ----------------------------------------------------------------------------
+## This file is part of lt24ctrl, a video controler IP core for Terrasic
+## LT24 LCD display
+## Copyright (C) 2017 Ludovic Noury <ludovic.noury@esiee.fr>
+## 
+## This program is free software: you can redistribute it and/or
+## modify it under the terms of the GNU General Public License as
+## published by the Free Software Foundation, either version 3 of the
+## License, or (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful, but
+## WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see
+## <http://www.gnu.org/licenses/>.
+## ----------------------------------------------------------------------------
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_AF14 -to clock_50
+set_location_assignment PIN_AA15 -to key[1]
+set_location_assignment PIN_AA14 -to key[0]
+set_location_assignment PIN_AH23 -to lt24_cs_n
+set_location_assignment PIN_AK23 -to lt24_d[15]
+set_location_assignment PIN_AG23 -to lt24_d[14]
+set_location_assignment PIN_AK24 -to lt24_d[13]
+set_location_assignment PIN_AJ24 -to lt24_d[12]
+set_location_assignment PIN_AJ25 -to lt24_d[11]
+set_location_assignment PIN_AH25 -to lt24_d[10]
+set_location_assignment PIN_AK26 -to lt24_d[9]
+set_location_assignment PIN_AJ26 -to lt24_d[8]
+set_location_assignment PIN_AK27 -to lt24_d[7]
+set_location_assignment PIN_AK28 -to lt24_d[6]
+set_location_assignment PIN_AK29 -to lt24_d[5]
+set_location_assignment PIN_AJ27 -to lt24_d[4]
+set_location_assignment PIN_AH27 -to lt24_rs
+set_location_assignment PIN_AH24 -to lt24_wr_n
+set_location_assignment PIN_AG26 -to lt24_rd_n
+set_location_assignment PIN_AF26 -to lt24_d[0]
+set_location_assignment PIN_AF25 -to lt24_d[1]
+set_location_assignment PIN_AE24 -to lt24_d[2]
+set_location_assignment PIN_AE23 -to lt24_d[3]
+set_location_assignment PIN_AC22 -to lt24_lcd_on
+set_location_assignment PIN_AD21 -to lt24_reset_n
+## ----------------------------------------------------------------------------

@@ -1,0 +1,47 @@
+# Copyright (C) 2016  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+# File: /home/ludovic/sirius-wc/enseignements/terasic_lt24/orginal/DE0_Nano_SDRAM_LT24_Painter/de0_nano.csv
+# Generated on: Tue Mar 21 18:53:22 2017
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+CLOCK_50,Input,PIN_R8,3,B3_N0,PIN_R8,3.3-V LVTTL,,,,,
+KEY[1],Input,PIN_E1,1,B1_N0,PIN_E1,3.3-V LVTTL,,,,,
+KEY[0],Input,PIN_J15,5,B5_N0,PIN_J15,3.3-V LVTTL,,,,,
+LT24_CS_N,Output,PIN_N16,5,B5_N0,PIN_N16,3.3-V LVTTL,,,,,
+LT24_D[15],Output,PIN_R14,4,B4_N0,PIN_R14,3.3-V LVTTL,,,,,
+LT24_D[14],Output,PIN_P16,5,B5_N0,PIN_P16,3.3-V LVTTL,,,,,
+LT24_D[13],Output,PIN_P15,5,B5_N0,PIN_P15,3.3-V LVTTL,,,,,
+LT24_D[12],Output,PIN_L15,5,B5_N0,PIN_L15,3.3-V LVTTL,,,,,
+LT24_D[11],Output,PIN_R16,5,B5_N0,PIN_R16,3.3-V LVTTL,,,,,
+LT24_D[10],Output,PIN_K16,5,B5_N0,PIN_K16,3.3-V LVTTL,,,,,
+LT24_D[9],Output,PIN_L16,5,B5_N0,PIN_L16,3.3-V LVTTL,,,,,
+LT24_D[8],Output,PIN_N11,4,B4_N0,PIN_N11,3.3-V LVTTL,,,,,
+LT24_D[7],Output,PIN_N9,4,B4_N0,PIN_N9,3.3-V LVTTL,,,,,
+LT24_D[6],Output,PIN_P9,4,B4_N0,PIN_P9,3.3-V LVTTL,,,,,
+LT24_D[5],Output,PIN_N12,4,B4_N0,PIN_N12,3.3-V LVTTL,,,,,
+LT24_D[4],Output,PIN_R10,4,B4_N0,PIN_R10,3.3-V LVTTL,,,,,
+LT24_D[3],Output,PIN_T13,4,B4_N0,PIN_T13,3.3-V LVTTL,,,,,
+LT24_D[2],Output,PIN_R13,4,B4_N0,PIN_R13,3.3-V LVTTL,,,,,
+LT24_D[1],Output,PIN_T12,4,B4_N0,PIN_T12,3.3-V LVTTL,,,,,
+LT24_D[0],Output,PIN_R12,4,B4_N0,PIN_R12,3.3-V LVTTL,,,,,
+LT24_LCD_ON,Output,PIN_J14,5,B5_N0,PIN_J14,3.3-V LVTTL,,,,,
+LT24_RD_N,Output,PIN_T10,4,B4_N0,PIN_T10,3.3-V LVTTL,,,,,
+LT24_RESET_N,Output,PIN_K15,5,B5_N0,PIN_K15,3.3-V LVTTL,,,,,
+LT24_RS,Output,PIN_P11,4,B4_N0,PIN_P11,3.3-V LVTTL,,,,,
+LT24_WR_N,Output,PIN_R11,4,B4_N0,PIN_R11,3.3-V LVTTL,,,,,
